@@ -11,101 +11,115 @@
             box-sizing: border-box;
         }
         body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-            line-height: 1.6;
-            color: #333;
-            background-color: #f8f9fa;
-            padding: 20px;
+            font-family: 'Times New Roman', Georgia, serif;
+            line-height: 1.7;
+            color: #2d2d2d;
+            background-color: #f0f2f5;
+            padding: 30px;
         }
         .container {
-            max-width: 800px;
+            max-width: 900px;
             margin: 0 auto;
-            background-color: #fff;
-            padding: 30px;
-            border-radius: 8px;
-            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            background-color: #ffffff;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
         }
         h1 {
-            font-size: 2.5rem;
-            color: #1a3c6d;
-            margin-bottom: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 2.8rem;
+            color: #003087;
+            margin-bottom: 25px;
             text-align: center;
+            font-weight: bold;
         }
         h2 {
-            font-size: 1.8rem;
-            color: #2c5282;
-            margin: 30px 0 15px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 1.9rem;
+            color: #004aad;
+            margin: 35px 0 20px;
+            border-bottom: 1px solid #e2e8f0;
+            padding-bottom: 10px;
         }
         h3 {
-            font-size: 1.4rem;
-            color: #2d3748;
-            margin: 20px 0 10px;
-        }
-        h4 {
-            font-size: 1.2rem;
-            color: #4a5568;
-            margin: 15px 0 10px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 1.5rem;
+            color: #005cbf;
+            margin: 25px 0 15px;
         }
         p {
-            font-size: 1rem;
-            margin-bottom: 15px;
+            font-size: 1.1rem;
+            margin-bottom: 20px;
         }
         a {
-            color: #2b6cb0;
+            color: #007bff;
             text-decoration: none;
-            transition: color 0.3s ease;
+            font-weight: bold;
         }
         a:hover {
-            color: #1a4971;
             text-decoration: underline;
+            color: #0056b3;
         }
         ul {
             list-style-type: none;
-            margin: 15px 0;
-            padding-left: 20px;
+            margin: 20px 0;
+            padding-left: 30px;
         }
         ul li {
             position: relative;
-            padding-left: 25px;
-            margin-bottom: 10px;
-            font-size: 1rem;
+            padding-left: 30px;
+            margin-bottom: 15px;
+            font-size: 1.1rem;
         }
         ul li:before {
-            content: '•';
+            content: '●';
             position: absolute;
             left: 0;
-            color: #2b6cb0;
+            color: #007bff;
             font-size: 1.2rem;
         }
         strong {
-            font-weight: 600;
+            font-weight: bold;
         }
-        p:last-child {
+        em {
             font-style: italic;
-            color: #718096;
+        }
+        .action {
+            text-decoration: underline;
+            color: #2d2d2d;
+            font-weight: bold;
+        }
+        blockquote {
+            border-left: 4px solid #007bff;
+            padding-left: 20px;
+            margin: 20px 0;
+            font-style: italic;
+            color: #4a5568;
+        }
+        .last-updated {
+            font-style: italic;
+            color: #6b7280;
             text-align: center;
+            margin-bottom: 20px;
         }
         @media (max-width: 600px) {
             .container {
-                padding: 20px;
+                padding: 25px;
             }
             h1 {
-                font-size: 2rem;
+                font-size: 2.2rem;
             }
             h2 {
-                font-size: 1.5rem;
+                font-size: 1.6rem;
             }
             h3 {
-                font-size: 1.2rem;
-            }
-            h4 {
-                font-size: 1rem;
+                font-size: 1.3rem;
             }
             p, ul li {
-                font-size: 0.95rem;
+                font-size: 1rem;
             }
             body {
-                padding: 10px;
+                padding: 15px;
             }
         }
     </style>
@@ -113,68 +127,70 @@
 <body>
     <div class="container">
         <h1>Privacy Policy</h1>
-        <p>Last updated: May 23, 2025</p>
-        <p>This Privacy Policy explains how Ipynb Viewer ("We", "Us", or "Our") collects, uses, and shares your information when you use our Ipynb Viewer app ("Service"). By using the Service, you agree to this policy. Generated with help from the <a href="https://www.termsfeed.com/privacy-policy-generator/" target="_blank">Privacy Policy Generator</a>.</p>
+        <p class="last-updated">Last updated: <em>May 23, 2025</em></p>
+        <blockquote>
+            <p>This Privacy Policy explains how <strong>Ipynb Viewer</strong> ("<em>We</em>", "<em>Us</em>", or "<em>Our</em>") collects, uses, and shares your information when you use our <strong>Ipynb Viewer app</strong> ("<em>Service</em>"). By using the Service, you agree to this policy. Generated with help from the <a href="https://www.termsfeed.com/privacy-policy-generator/" target="_blank">Privacy Policy Generator</a>.</p>
+        </blockquote>
 
         <h2>Definitions</h2>
         <ul>
-            <li><strong>Account:</strong> Your unique account to access the Service.</li>
-            <li><strong>Affiliate:</strong> An entity controlling, controlled by, or under common control with us, with "control" meaning 50%+ ownership of voting securities.</li>
-            <li><strong>Device:</strong> Any device (e.g., phone, computer) accessing the Service.</li>
-            <li><strong>Personal Data:</strong> Information identifying an individual.</li>
-            <li><strong>Service Provider:</strong> Third parties processing data for us to facilitate or analyze the Service.</li>
-            <li><strong>Usage Data:</strong> Automatically collected data (e.g., IP address, device ID, browser type, visit duration).</li>
-            <li><strong>You:</strong> The individual or entity using the Service.</li>
+            <li><strong>Account:</strong> Your unique account to access the <em>Service</em>.</li>
+            <li><strong>Affiliate:</strong> An entity with 50%+ ownership or control by <em>Us</em>.</li>
+            <li><strong>Device:</strong> Any device (e.g., phone, computer) accessing the <em>Service</em>.</li>
+            <li><strong>Personal Data:</strong> Information identifying an <em>individual</em>.</li>
+            <li><strong>Service Provider:</strong> Third parties processing data for the <em>Service</em>.</li>
+            <li><strong>Usage Data:</strong> Automatically collected data (e.g., <em>IP address</em>, <em>device ID</em>).</li>
+            <li><strong>You:</strong> The <em>individual</em> or <em>entity</em> using the Service.</li>
         </ul>
 
         <h2>Data Collection and Use</h2>
         <h3>Data Collected</h3>
-        <p>We collect Usage Data automatically, including IP address, device type, device ID, operating system, browser details, and visit timestamps.</p>
+        <p>We collect <strong>Usage Data</strong> automatically, including <em>IP address</em>, <em>device type</em>, <em>device ID</em>, <em>operating system</em>, <em>browser details</em>, and <em>visit timestamps</em>.</p>
 
         <h3>Use of Data</h3>
         <p>We use your data to:</p>
         <ul>
-            <li>Provide, maintain, and improve the Service.</li>
-            <li>Manage your Account and Service access.</li>
-            <li>Contact you about updates, security, or promotions (if opted in).</li>
-            <li>Analyze usage trends and enhance Service functionality.</li>
-            <li>Support business transfers (e.g., mergers) or comply with contracts.</li>
+            <li><strong>Provide</strong> and <strong>improve</strong> the <em>Service</em>.</li>
+            <li><strong>Manage</strong> your <em>Account</em> and access.</li>
+            <li><strong>Contact</strong> you about <em>updates</em>, <em>security</em>, or <em>promotions</em> (if opted in).</li>
+            <li><strong>Analyze</strong> trends to enhance <em>functionality</em>.</li>
+            <li>Support <strong>business transfers</strong> or <strong>contracts</strong>.</li>
         </ul>
 
         <h3>Sharing Data</h3>
         <p>We may share your data:</p>
         <ul>
-            <li>With Service Providers for analytics or communication.</li>
-            <li>During business transfers (e.g., acquisitions).</li>
-            <li>With Affiliates or business partners, ensuring they follow this policy.</li>
-            <li>With your consent or in public areas if you share information.</li>
-            <li>As required by law or to protect our rights, safety, or property.</li>
+            <li>With <strong>Service Providers</strong> for <em>analytics</em> or <em>communication</em>.</li>
+            <li>During <strong>business transfers</strong> (e.g., <em>acquisitions</em>).</li>
+            <li>With <strong>Affiliates</strong> or <strong>partners</strong>, per this policy.</li>
+            <li><em>With your consent</em> or in <em>public areas</em> if shared.</li>
+            <li>As <strong>required by law</strong> or to protect <em>rights</em> or <em>safety</em>.</li>
         </ul>
 
         <h2>Data Management</h2>
         <h3>Retention</h3>
-        <p>We retain Personal Data only as needed for this policy’s purposes, legal obligations, or dispute resolution. Usage Data is kept for analysis, typically for shorter periods unless needed for security or functionality.</p>
+        <p>We retain <strong>Personal Data</strong> only as needed for this policy, <em>legal obligations</em>, or <em>disputes</em>. <strong>Usage Data</strong> is kept for <em>analysis</em>, typically shorter unless for <em>security</em>.</p>
 
         <h3>Transfers</h3>
-        <p>Your data may be processed outside Bangladesh, with safeguards to ensure security per this policy.</p>
+        <p>Your data may be processed outside <em>Bangladesh</em>, with <strong>safeguards</strong> for security.</p>
 
         <h3>Your Rights</h3>
-        <p>You can access, update, or delete your Personal Data via Account settings or by contacting us. We may retain some data for legal reasons.</p>
+        <p>You can <u class="action">access</u>, <u class="action">update</u>, or <u class="action">delete</u> your <strong>Personal Data</strong> via <em>Account settings</em> or by <u class="action">contacting us</u>. Some data may be retained for <em>legal reasons</em>.</p>
 
         <h2>Security</h2>
-        <p>We use reasonable measures to protect your data, but no method is 100% secure.</p>
+        <p>We use <strong>reasonable measures</strong> to protect your data, but no method is <em>100% secure</em>.</p>
 
         <h2>Children's Privacy</h2>
-        <p>Our Service is not for users under 13. We do not knowingly collect their data and will remove it if discovered. Parental consent may be required in some regions.</p>
+        <p>Our <em>Service</em> is not for users under <strong>13</strong>. We do not knowingly collect their data and will <u class="action">remove</u> it if found. <em>Parental consent</em> may be required.</p>
 
         <h2>Third-Party Links</h2>
-        <p>Our Service may link to third-party sites. We are not responsible for their privacy practices.</p>
+        <p>Our <em>Service</em> may link to third-party sites. We are not responsible for their <em>privacy practices</em>.</p>
 
         <h2>Policy Updates</h2>
-        <p>We may update this policy, notifying you via email or the Service. Changes are effective when posted. Check periodically for updates.</p>
+        <p>We may update this policy, notifying you via <em>email</em> or the <em>Service</em>. Changes are effective when <strong>posted</strong>. <u class="action">Check periodically</u> for updates.</p>
 
         <h2>Contact Us</h2>
-        <p>For questions, email us at: ceo@eternalbit.it.com</p>
+        <p>For questions, <u class="action">email us</u> at: <strong>ceo@eternalbit.it.com</strong></p>
     </div>
 </body>
 </html>
